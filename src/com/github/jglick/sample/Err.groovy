@@ -1,6 +1,6 @@
 package com.github.jglick.sample
 class Err {
-    static void call(script) {
+    static void fail(script) {
         script.error 'oops'
     }
 }
